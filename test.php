@@ -22,9 +22,7 @@ class Card {
             }
             
             $sum = $sum + $value;
-            echo($sum);
         }
-        echo($sum);
         if (($sum % 10) == 0) {
             return "Valid";
         } else {
